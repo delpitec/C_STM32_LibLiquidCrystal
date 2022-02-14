@@ -502,6 +502,7 @@ void send(LiquidCrystal *lcd, uint8_t value, uint8_t mode) {
 /**************************************************************************************************************************************************/
 void pulseEnable(void) {
 	HAL_GPIO_WritePin(LCD_EN_GPIO_Port, LCD_EN_Pin, GPIO_PIN_SET);
+	HAL_Delay(1);
 	HAL_GPIO_WritePin(LCD_EN_GPIO_Port, LCD_EN_Pin, GPIO_PIN_RESET);
 }
 /**************************************************************************************************************************************************/

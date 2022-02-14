@@ -2,7 +2,8 @@
 
 **Descrição da biblioteca:**<br>
 A biblioteca permite a fácil utilização de displays LCD (*Liquid Crystal Display*) conectados de modo "paralelo" (isso significa que para cada pino de comunicação do display LCD, deverá ser utilizado um pino do microcontrolador).  
-Existem outras maneiras de realizar a comunicação entre um microcontrolador e displays LCD, que serão abordadas posteriormente no meu [canal do YouTube](https://www.youtube.com/delpitec)
+Existem outras maneiras de realizar a comunicação entre um microcontrolador e displays LCD, que serão abordadas posteriormente no meu [canal do YouTube](https://www.youtube.com/delpitec). 
+Esta biblioteca possui um [repositório de testes com exemplos de aplicação](https://github.com/delpitec/C_STM32_Exemplo_LibLiquidCrystal) e está documentada em vídeo [aqui](https://www.youtube.com/watch?v=FuYQdr36oKI).
 &nbsp;<br>
 
 **Status do desenvolvimento:**<br>
